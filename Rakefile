@@ -74,7 +74,7 @@ task :preview do
 
   Jekyll::Commands::Serve.process(options)
 end
-
+require 'tmpdir'
 GITHUB_REPONAME = "soimkim/minimal-mistakes"
 
 desc "Generate blog files"
